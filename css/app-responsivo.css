@@ -2,11 +2,17 @@
 
     .menu-responsivo {
         display: grid;
+        display: -ms-grid;
+        display: -webkit-flex;
         grid-template-columns: 50vw 50vw;
         grid-template-rows: 50px;
         background-color: blue;
         text-align: center;
         align-items: center;
+        justify-content: space-around;
+        -webkit-align-items: center;
+        -webkit-justify-content: space-around;
+        -ms-justify-content: space-around;
     }
 
     .menu-responsivo a {
