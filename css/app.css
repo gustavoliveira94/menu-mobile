@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 885px) {
+
+.menu-responsivo {
+    display: none;
+}
+
+.menu {
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 20vw 17.5vw 17.5vw 17.5vw 17.5vw;
+    background-color: blue;
+    text-align: center;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu li {
+    list-style: none;
+    font-size: 14px;
+    font-family: lato;
+    font-weight: 600;
+}
+
+.logo {
+    align-items: center;
+    width: 150px;
+    margin-left: 10vh;
+}
+
+}
