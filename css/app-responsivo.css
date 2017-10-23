@@ -27,11 +27,16 @@
 
     .menu-mostrar {
         display: grid;
+        display: -ms-grid;
+        display: -webkit-flex;
         grid-template-columns: 100vw;
-        grid-template-rows: 40px 40px 40px 40px ;
+        grid-template-rows: 40px 40px 40px 40px;
         background-color: blue;
         text-align: center;
         align-items: center;
+        align-content: space-around;
+        -webkit-flex-direction: column;      
+        
     }
 
     .menu-mostrar li {
@@ -45,6 +50,7 @@
         text-decoration: none;
         color: #ffffff;
         padding: 15px 0 15px 0;
+        width: 100vw;
     }
 
     .menu-mostrar a:hover {
