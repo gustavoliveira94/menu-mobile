@@ -6,7 +6,7 @@
         display: -webkit-flex;
         grid-template-columns: 50vw 50vw;
         grid-template-rows: 50px;
-        background-color: blue;
+        background-color: #ffffff;
         text-align: center;
         align-items: center;
         justify-content: space-around;
@@ -18,7 +18,7 @@
     .menu-responsivo a {
         cursor: pointer;
         text-decoration: none;
-        color: #ffffff;
+        color: #000000;
     }
 
     .menu {
@@ -31,11 +31,11 @@
         display: -webkit-flex;
         grid-template-columns: 100vw;
         grid-template-rows: 40px 40px 40px 40px;
-        background-color: blue;
+        background-color: #ffffff;
         text-align: center;
         align-items: center;
         align-content: space-around;
-        -webkit-flex-direction: column;      
+        -webkit-flex-direction: column;  
         
     }
 
@@ -48,13 +48,13 @@
 
     .menu-mostrar a {
         text-decoration: none;
-        color: #ffffff;
+        color: #000000;
         padding: 15px 0 15px 0;
         width: 100vw;
     }
 
     .menu-mostrar a:hover {
-        background-color: #4949FF;
+        background-color: #D8D8D8;
     }
 
     .menu-mostrar a:first-of-type{

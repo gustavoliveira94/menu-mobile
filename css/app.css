@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+body {
+    background-image: url(../imagem/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 @media (min-width: 885px) {
 
 .menu-responsivo {
@@ -15,7 +21,7 @@
     display: -webkit-flex;
     grid-template-rows: 50px;
     grid-template-columns: 20vw 17.5vw 17.5vw 17.5vw 17.5vw;
-    background-color: blue;
+    background-color: #ffffff;
     text-align: center;
     align-items: center;
     -ms-justify-content: space-around;
@@ -23,9 +29,28 @@
     -webkit-justify-content: space-around;
 }
 
+.fixo {
+    position: fixed;
+    width: 100vw;
+    box-shadow: 0 0 1px 1px #000000;
+    background-color: rgba(255, 255, 255, 0.90);
+}
+
 .menu a {
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
+    transition: ease-in-out 0.5s;
+}
+
+.menu a:hover:first-of-type {
+    background-color: #ffffff;
+    padding: 0;
+}
+
+.menu a:hover {
+    background-color: #D8D8D8;
+    padding: 22px 15vw 22px 15vw;
+    transition: ease-in-out 0.5s;
 }
 
 .menu li {
